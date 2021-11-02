@@ -1,0 +1,39 @@
+.weather-container {
+  margin-top: 30px;
+}
+.location-desc,
+.desc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 2px;
+  justify-content: center;
+}
+.desc img {
+  width: 60px;
+}
+.desc span {
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+.location {
+  font-weight: 600;
+}
+.more-info {
+  margin: auto;
+  margin-top: 30px;
+}
+.more-info div:last-child {
+  margin-block: 20px;
+}
+.more-info > div span:first-child {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+/* 
+@media (max-width: 778px) {
+  form {
+    width: 100%;
+    height: 100vh;
+  }
+} */
